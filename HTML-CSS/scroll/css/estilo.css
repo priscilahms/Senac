@@ -4,10 +4,31 @@
 body{
     font-family: arial;
 }
+
 h2{
     font-size: 50px;
     text-align: center;
     margin-bottom: 20px;
+}
+/*menu*/
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:flex-end;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.menu{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu a{
+    color: #7E7878;
+    text-decoration: none;
 }
 
 /*seção quem somos*/
@@ -37,14 +58,48 @@ h2{
     width: 100%;
 }
 
+/*section in natura*/
+.banner{
+    background-image: url(../imagens/parallax.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.innatura{
+    background-color: #849C0D;
+    color:#ffff;
+}
+.frutas{
+    box-shadow: none; !important
+}
 
+/*section ultraprocessados*/
 
+.ultraprocessados{
+    background-color: #D3D8D2;
+    padding-bottom: 50px;
+}
 
+img {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
 
+.botao{
+    text-align: center;
+}
+.botao a{
+    color:#ffff;
+    background-color: #E5141F;
+    padding: 10px 45px;
+    border-radius: 40px;
+    text-decoration: none;
+}
 
-
-
-
-
+footer{
+    text-align: center;
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
 
 
