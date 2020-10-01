@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 100px;
+    background-color: beige;
+}
+
+nav{
+    background-color: skyblue;
+    width: 700px;
+    padding: 20px;
+}
+
+main{
+    width: 1200px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section{
+    background-color: gainsboro;
+    height: 450px;
+    width: 450px;
+}
+
+footer{
+    background-color: dimgray;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+

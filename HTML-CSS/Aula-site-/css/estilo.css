@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+}
+
+/*cabeçalho*/
+
+.menu{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu a{
+    font-family: arial;
+    color:black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color:gray;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*conteudo principal*/
+
+main{
+    width: 1200px;
+    margin: auto;
+    font-family: arial;
+    color:dimgray;
+    line-height: 2;
+}
+
+h1{
+    color: #660027;
+    font-size: 35px;
+}
+
+.card{
+    width: 250px;
+    border: 1px solid dimgray;
+    border-radius: 3px;
+    padding-bottom: 24px;
+}
+
+.card a{
+    border: 2px solid #660027;
+    border-radius: 4px;
+    color: #660027;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 24px;
+    text-align: center;
+}
+
+.card a:hover{
+    background-color: #660027;
+    color:white;
+    
+}
+
+.card h3{
+    margin: 24px;
+    color: #660027;
+    
+}
+.card p{
+    margin: 24px;
+    line-height: 1.5;
+   
+}
+.cards-home{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+
+}
+
+/*pagina masculino*/
+.fotos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.texto-principal{
+    width: 650px;
+    text-align: center;
+    margin: auto;
+}
+
+/*pagina feminino*/
+.retro{
+    margin-bottom: 40px;
+}
+
+/*página Contato*/
+.contato{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.lado-esquerdo{
+    border: 1px solid #660027;
+    border-radius: 5px;
+    width: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+input{
+    width: 400px;
+    height: 42px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+}
+textarea{
+    border: 1px solid #660027;
+    border-radius: 4px;
+    width: 400px;
+    height: 125px;
+}
+
+form p{
+    margin-top: 30px;
+}
+
+input[type=submit]{
+    background-color: #660027;
+    color: white;
+    width: 128px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.lado-direito{
+    background: #660027;
+    color: white;
+    line-height: 2.5;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-contato{
+    display: none;
+}
+
+footer{
+    background-color: #660027;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 40px;
+    font-family: arial;
+}
+
+/*medias queries*/
+
+/*tablet*/
+
+@media (max-width: 1169px){
+    main{
+        width: 593px;
+    }
+    .banner img{
+        width: 593px;
+    }
+    nav{
+        width: 593px;
+    }
+    
+    .card{
+        margin-top: 40px;
+    }
+    .fotos img{
+        width: 290px;
+    }
+    .men1, .retro3, .romantico2{
+        display: none;
+    }
+    
+    .lado-esquerdo{
+        width: 320px;
+    }
+    .lado-direito{
+        width: 256px;
+    }
+    input, textarea{
+        width: 263px;
+    }
+    .lado-direito p{
+        font-size: 12px;
+    }
+}
+
+/*smartphone*/
+
+@media (max-width: 767px){
+    main{
+        width: 320px;
+       
+    }
+    nav{
+        width: 320px;
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    
+    .menu li{
+        margin: 5px;
+    }
+    
+    .banner{
+        display: none;
+    }
+    
+    .texto-principal{
+        width: 320px;
+    }
+    .men2, .romantico3, .retro2{
+        display: none;
+    }
+    .lado-direito{
+        display: none;
+    }
+    .footer-contato{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

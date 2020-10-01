@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: arial;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*seção quem somos*/
+.quem-somos{
+    background-color: #E5141F;
+    color:#ffff;
+    
+}
+
+.centro{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centro img{
+    width: 500px;
+}
+.texto{
+   width: 550px;
+}
+
+.carrossel img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

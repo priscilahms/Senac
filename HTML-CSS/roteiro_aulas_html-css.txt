@@ -1,0 +1,141 @@
+Aula1
+Introdução ao HTML
+	Ambiente de desenvolvimento
+	Navegadores
+	Paralelo: HTML, CSS, Javascript
+Tags
+	Estrutura básica
+	tags de conteúdo
+		Títulos
+		Parágrafos
+		listas (ordenandas e não ordenadas)
+		hr
+____________________________________________________________________________________________________
+Aula2
+Tags de conteúdo
+	Imagens
+	Hiperlinks
+	Tabelas
+		css - border-collapse
+		
+Introdução ao CSS
+	tipos
+	seletores (tags, classe, ID)
+	Introdução CSS 
+		estrutura de conteúdo
+		plano de fundo
+______________________________________________________________________________________________________
+Aula3
+Tags de estruturas
+	Header, nav, article, sections, footer, aside
+	www.globo.com
+CSS layout
+	display inline
+	display block
+	display flex - Principais propriedades (jogo - flexbox Froggy)
+		justify-content
+		align-items
+		flex-wrap
+
+Organização - estruturas de pastas
+
+Atividade - Desenhar estrutura sem conteúdo
+_____________________________________________________________________________________________________
+Aula4
+Criar menu horizontal e vertical
+	lista não ordenada
+	link
+	CSS propriedades de texto
+		text-align
+		text-transform
+		text-decoration
+		line-height
+		font-family
+		font-style
+		font-weight
+		font-size
+		color
+	CSS pseudo classe hover
+______________________________________________________________________________________________________
+Aulas
+Construção de 3 a 4 páginas
+	Import de fontes
+	navegabilidade
+
+	itens que se repetem
+	Adição de mais tags HTML
+		formulário HTML e CSS
+		audio e vídeo HTML e CSS (inputs, select e botões)
+		iframe HTML e CSS
+	Adição de mais comandos CSS:
+		Efeito parallax
+			background-attachment
+			background-size
+    			background-position
+    			
+		Position - Static, Realativa, Absolut (Aula - position)
+		Border
+		Text-shadow
+		max-height
+		min-height
+		max-width
+		min-width
+		z-index
+		background com gradiente
+		box-shadow
+		Opacity
+__________________________________________________________________________________________________________	
+Aula responsivo
+	PC
+	tablet max-width:1169px (mercado, a partir de 1170px é PC, abaixo deste tamanho até 768px já é tablet)
+	smartphone max-width:767px (mercado, a partir de 768px é tablet, abaixo deste tamanho até 320px é smartphone)
+
+
+
+___________________________________________________________________________________________________________	
+Ao longo das aulas explicar unidades de medida:
+
+Unidades de tamanho relativas
+Unidade	Descrição
+px	Tamanho em pixels (relativo ao dispositivo)
+em	Tamanho relativo à fonte utilizada no elemento ao qual está inserido
+ex	Correspondente à altura da fonte 'x’	
+		
+Unidades de tamanho absolutas
+Unidade	Descrição
+in	Polegadas (1polegada = 2.54 cm)
+cm	Centímetros
+mm	Milímetros
+pt	Pontos (1pt = 1/72 polegadas)
+pc	Picas (1pica = 12 pontos)
+		
+Porcentagem
+Unidade	Descrição
+%	Porcentagem
+0	Valor '0' não requer atribuição de unidade
+
+Representação de cores
+Unidade	Descrição
+#RRGGBB	Cor RGB (6 valores hexadecimais)
+#RGB	Notação simplificada (#RGB = #RRGGBB)
+rgb(R,G,B)	Cor RGB (3 valores de 0 a 255)
+rgb(R%,G%,B%)	Cor RGB (3 valores percentuais)
+rgba(R, G, B, %Opacidade)
+
+_____________________________________________________________________________________________________________
+Javascript - Introdução
+
+Estrutura sequencial
+Estrutura condicional
+Estrutura de repetição
+
+Manipulação do DOM
+
+Plugins
+	Carrossel
+	galeria de imagens
+
+Introdução ao Bootstrap (talvez Material Design)
+
+
+	

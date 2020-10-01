@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+*{
+    padding: 0;
+    margin: 0;
+    }
+/* Cabeçalho */
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    
+}
+
+nav{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* cabeçalho - menu */
+.menu{
+    width: 500px;            
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    font-weight: bold;
+}
+.menu li{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* fim do cabeçalho */
+
+/* seção - home  */
+#home{
+    background-image: url(../imagens/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    padding-top: 600px;
+    color:black;
+	text-align: center;
+    
+}
+.home{
+    background-color: rgba(255,255,255,0.6);
+    height: 130px;
+}
+
+
+
+#home p{
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+#home a{
+    background-color: #CC978E;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    padding: 10px;
+
+}
+/* fim seção home  */
+
+/* seção nosso trabalho */
+
+#nosso-trabalho{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+#nosso-trabalho h2,#nosso-trabalho p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+        
+}
+#nosso-trabalho a{
+    margin: 10px;
+    color: darkseagreen;
+    
+}
+ /* css galeria */
+.galeria{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 745px;
+    
+}
+
+/* fim seção nosso trabalho */
+
+/* seção sabores  */
+#sabores{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../imagens/sabores.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.lista-sabores{
+    width: 500px;
+    margin: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: rgba(255,255,255,0.6);
+    text-align: center;
+    border-radius: 5px;
+}
+.menu-sabores{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.menu-sabores li{
+    padding:10px;
+    margin: 1px;
+    background-color: #9DC0BC;
+    list-style: none;
+    
+
+}
+
+.menu-sabores li:hover{
+        background-color: white;
+        
+}
+.menu-sabores a{
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: white;
+        text-decoration: none;
+        
+}
+.menu-sabores a:hover{
+       
+        color: #CC978E;
+}
+
+/* fim seção sabores */
+
+/* seção contato  */
+#contato h2,#contato p, h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+        
+}
+.contato-dir{
+    background-color: rgba(204,151,142,0.3);
+    padding: 30px;
+    
+}
+.contato{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.redes{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    
+}
+.rede{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #007290;
+    border-radius: 4px;
+   
+
+}
+form{
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 400px;
+    
+}
+
+input[type=text]:focus,input[type=number]:focus,input[type=date]:focus {
+    background-color:#9DC0BC;
+    outline: none;
+    color:white;
+    
+}
+input[type=text],input[type=number],input[type=date] {
+    border: 1px solid #9DC0BC;
+    border-radius: 20px;
+     font-size: 14px;
+    padding: 12px;
+}
+
+input[type=submit]{
+    background-color: #CC978E;
+    color:white;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* fim seção contato  */
+
+/* footer  */
+footer p{
+    text-align: center;
+    color: white;
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 12px;
+    background-color: black;
+    padding: 15px;
+    margin-top: 30px;
+
+}
+
+/* fim footer  */
+
+/* medias queries - responsivo */
+
+/* tablet */
+
+@media (max-width: 1169px) {
+   nav {
+        width: 800px;
+    }
+}
+
+/* smartphone */
+
+@media (max-width: 767px) {
+    nav{
+        width: 400px;
+        flex-direction: column;
+    }
+    .menu{
+        width: 300px;
+        flex-direction: column;
+        margin: 15px;
+        
+    }
+    .menu li{
+        border: 1px solid #CC978E;
+        border-radius: 30px;
+        padding: 5px;
+        margin: 5px;
+    }
+    .menu li:hover{
+       border:white;
+    }
+    
+    .slider{
+        width: 350px;
+     
+        
+    }
+    .lista-sabores{
+    width: 350px;
+    }
+    .menu-sabores{
+   
+    margin-left: 25px;
+    margin-top: 20px;
+    }
+    form{
+        width: 350px;
+        margin-left: 20px;
+        }
+    .contato{
+        flex-direction: column;
+        
+    }
+    .contato-dir{
+        width: 350px;
+        margin: 10px;
+    }
+}

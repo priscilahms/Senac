@@ -1,0 +1,63 @@
+/*retira as margens padrão das tags*/
+*{
+    margin: 0;
+}
+
+/*formatando o menu*/
+.menu{
+/*    retira os marcadores*/
+    list-style: none;
+/*    colocar um item ao lado do outro*/
+    display: flex;
+    justify-content: space-between;
+/*largura do menu*/
+    width: 400px;
+}
+
+/*formatação dos links do menu*/
+
+.menu a{
+/*    retirar o sublinhado do link*/
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+/*    transforma o texto em maiuscula*/
+    text-transform: uppercase;
+}
+
+/*hover - modifica a formatação ao passar o mouse*/
+.menu a:hover{
+/*    negrito*/
+    font-weight: bold;
+/*    borda inferior*/
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+nav{
+    display: flex;
+/*    sub propriedade do display: flex, espaçamento entre os items*/
+    justify-content: space-between;
+/*    sub propriedade do display: flex, alinhamento dos itens*/
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+nav img{
+    width: 150px;
+}
+
+header{
+    background-color: beige;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
